@@ -1,2 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+*.gl filter=lfs diff=lfs merge=lfs -text
+health_kepler.gl.json filter=lfs diff=lfs merge=lfs -text
